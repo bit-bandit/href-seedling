@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 40em;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.about img {
+  display: flex;
+  border-radius: 5%; 
+  margin: auto;
+  width: 50%;        /* Remove if your image is small enough */
+}
+
+.links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.links ul {
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
