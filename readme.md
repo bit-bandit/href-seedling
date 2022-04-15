@@ -7,7 +7,7 @@ Run `main.ts`, and it should output an HTML file, aptly named `output.html`. Tha
 
 ## Sample Screenshot
 
-![](screenshot.png);
+![](screenshot.png)
 
 This is the default look of an `href-seedling` page, with no modifications made to the 
 default stylesheet, or Markdown template.
