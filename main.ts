@@ -1,14 +1,11 @@
 import { marked } from 'https://raw.githubusercontent.com/markedjs/marked/master/lib/marked.esm.js';
 
-marked.setOptions({})
-
 const css_path: string = './style.css';
 const md_path: string = './input.md';
 const out_path: string = './output.html';
 const title: string = 'href-seedling';
 
 const css: string = await Deno.readTextFile(css_path);
-
 const rawMarkdown: string = await Deno.readTextFile(md_path);
 const parsedMarkdown: string = await marked.parse(rawMarkdown);
 
